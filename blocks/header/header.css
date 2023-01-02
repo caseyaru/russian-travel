@@ -3,8 +3,31 @@
     flex-direction: row;
     justify-content: flex-end;
     gap: 18px;
-    margin-top: 28px;
-    margin-right: 48px;
+    margin: 28px auto 0;
     max-width: 1184px;
     max-height: 52px;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        max-width: 928px;
+        max-height: 52px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        margin: 28px 24px 0;
+        max-width: 720px;
+        max-height: 52px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        margin: 16px 16px 0;
+        max-width: 288px;
+        max-height: 42px;
+    }
 }
