@@ -4,7 +4,7 @@
     max-width: 640px;
     max-height: 72px;
     text-align: center;
-    margin: 32px 172px 0;
+    margin: 32px auto 0;
     font-family: 'Inter', normal;
     font-weight: 400;
     font-size: 30px;
@@ -16,8 +16,8 @@
         margin: 32px auto 0;
         font-size: 30px;
         line-height: 36px;
-        min-width: 640px;
-        min-height: 72px;
+        max-width: 640px;
+        max-height: 72px;
     }
 }
 
