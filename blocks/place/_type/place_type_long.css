@@ -1,15 +1,15 @@
 .place_type_long {
-    grid-template-rows: 152px 460px;
+    grid-template-rows: 152px auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .place_type_long {
-        grid-template-rows: 152px 440px;
+        grid-template-rows: 152px auto;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .place_type_long {
-        grid-template-rows: 92px 440px;
+        grid-template-rows: 92px auto;
     }
 }
