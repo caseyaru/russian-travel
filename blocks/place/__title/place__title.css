@@ -6,21 +6,16 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-
     grid-area: title;
     max-width: 100%;
     max-height: 100%;
 }
 
-/*.place__title:first-of-type {
-    letter-spacing: 1px;
-}*/
-
 @media screen and (max-width: 1023px) {
     .place__title {
         font-size: 42px;
         line-height: 46px;
-        max-width: calc(100%-2*13px);
+        max-width: calc(100% - 2*13px);
     }
 }
 
