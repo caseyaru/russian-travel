@@ -6,9 +6,11 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
-    
     max-width: 100%;
+}
 
+.place__paragraph:nth-child(2) {
+    margin-top: 27px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,15 +23,7 @@
     .place__paragraph {
         font-size: 16px;
     }
-}
-
-@media screen and (max-width: 320px) {
-    .place__paragraph {
-        
+    .place__paragraph:nth-child(2) {
+        margin-top: 25px;
     }
 }
-
-/*.place-paragraph::nth-of-type(2) {
-    margin-top: 26px;
-
-}*/

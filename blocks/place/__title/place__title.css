@@ -12,11 +12,15 @@
     max-height: 100%;
 }
 
+/*.place__title:first-of-type {
+    letter-spacing: 1px;
+}*/
+
 @media screen and (max-width: 1023px) {
     .place__title {
         font-size: 42px;
         line-height: 46px;
-        padding-right: 45px;
+        max-width: calc(100%-2*13px);
     }
 }
 
