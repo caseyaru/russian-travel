@@ -5,11 +5,11 @@
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
-    font-family: 'Inter', normal;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
     text-align: center;
     align-items: center;
     max-width: 720px;
-    max-height: 200px;
 }
 
 @media screen and (max-width: 767px) {
@@ -17,6 +17,5 @@
         font-size: 40px;
         line-height: 44px;
         max-width: 288px;
-        min-height: 88px;
     }
 }

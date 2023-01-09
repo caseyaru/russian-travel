@@ -4,14 +4,16 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Russian Travel</title>
+      <title>Путешествия по России</title>
       <link rel="stylesheet" href="pages/index.css">
    </head>
    <body class="page">
       <header class="header">
          <img src="images/__logo.svg" class="header__logo" alt="Логотип">
-         <p class="header__lang-link">Ru</p>
-         <p class="header__lang-link">En</p>
+         <nav class="header__links">
+            <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+            <a href="#" class="header__lang-link">En</a>
+         </nav>
       </header>
       <main class="main">
          <section class="lead">
@@ -32,24 +34,24 @@
             </ul>
          </section>
          <section class="photo-grid">
-            <img class="photo-grid__item" src="images/1.png" alt="Изображение галереи">
-            <img class="photo-grid__item" src="images/2.png" alt="Изображение галереи">
-            <img class="photo-grid__item" src="images/3.png" alt="Изображение галереи">
-            <img class="photo-grid__item" src="images/4.png" alt="Изображение галереи">
-            <img class="photo-grid__item" src="images/5.png" alt="Изображение галереи">
-            <img class="photo-grid__item" src="images/6.png" alt="Изображение галереи">
-            <img class="photo-grid__item" src="images/7.png" alt="Изображение галереи">
-            <img class="photo-grid__item" src="images/8.png" alt="Изображение галереи">
-            <img class="photo-grid__item" src="images/9.png" alt="Изображение галереи">
-            <img class="photo-grid__item" src="images/10.png" alt="Изображение галереи">
-            <img class="photo-grid__item" src="images/11.png" alt="Изображение галереи">
-            <img class="photo-grid__item" src="images/12.png" alt="Изображение галереи">
+            <img class="photo-grid__item" src="images/1.png" alt="Вид из окна поезда">
+            <img class="photo-grid__item" src="images/2.png" alt="Снежные горы">
+            <img class="photo-grid__item" src="images/3.png" alt="Рассвет на сеновале">
+            <img class="photo-grid__item" src="images/4.png" alt="Туман в лесу">
+            <img class="photo-grid__item" src="images/5.png" alt="Лёд на озере">
+            <img class="photo-grid__item" src="images/6.png" alt="Пляж">
+            <img class="photo-grid__item" src="images/7.png" alt="Красивые горы">
+            <img class="photo-grid__item" src="images/8.png" alt="Снимок из путешествия">
+            <img class="photo-grid__item" src="images/9.png" alt="Холмы">
+            <img class="photo-grid__item" src="images/10.png" alt="Прекрасная тундра">
+            <img class="photo-grid__item" src="images/11.png" alt="Утёс около моря">
+            <img class="photo-grid__item" src="images/12.png" alt="Туман, холмы, горы">
          </section>
          <section class="places">
             <div class="place">
                <p class="place__title">Куршская коса</p>
                <div class="place__website">
-                  <p class="place__url-heading">URL</p>
+                  <p class="place__url-heading">Url</p>
                   <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
                </div>
                <img class="place__image" src="images/kosa.png" alt="Фотография Куршской косы">
@@ -61,7 +63,7 @@
             <div class="place">
                <p class="place__title">Кольский</p>
                <div class="place__website">
-                  <p class="place__url-heading">URL</p>
+                  <p class="place__url-heading">Url</p>
                   <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
                </div>
                <img class="place__image" src="images/kolsk.png" alt="Фотография Кольского">
@@ -73,7 +75,7 @@
             <div class="place">
                <p class="place__title">Алтай</p>
                <div class="place__website">
-                  <p class="place__url-heading">URL</p>
+                  <p class="place__url-heading">Url</p>
                   <a class="place__link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank">YouTube</a>
                </div>
                <img class="place__image" src="images/altai.png" alt="Фотография Алтая">
@@ -85,7 +87,7 @@
             <div class="place">
                <p class="place__title">Зимний Байкал</p>
                <div class="place__website">
-                  <p class="place__url-heading">URL</p>
+                  <p class="place__url-heading">Url</p>
                   <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
                </div>
                <img class="place__image" src="images/baikal.png" alt="Фотография Байкала">
@@ -97,7 +99,7 @@
             <div class="place">
                <p class="place__title">Карелия</p>
                <div class="place__website">
-                  <p class="place__url-heading">URL</p>
+                  <p class="place__url-heading">Url</p>
                   <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
                </div>
                <img class="place__image" src="images/karelia.png" alt="ФОтография Карелии">
@@ -108,7 +110,7 @@
          </section>
          <section class="cover">
             <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank">
-               <p class="cover__title">До Байкала «на собаках»</p>
+               <h2 class="cover__title">До Байкала «на собаках»</h2>
                <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
             </a>
          </section>
